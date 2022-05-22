@@ -1,0 +1,16 @@
+Todo what are logs?
+Logs means capturing information or activities at the time of execution.
+Todo Levels  of logs:
+1:info:
+2:warn:
+3:error:
+4:fatal:
+Todo how to generate logs
+we can generate logs using Apachi Log4J API
+Todo how log4j works?
+1:We have to add add jar files in project
+2:we have to create log4j.properties file inside resources folder
+3:log4j reads log4j configuration from log4j.properties(name should be exact same) file
+Todo How to define own logs?
+1: get logger object (Logger mLogger = Logger.getLogger(LoginTest.class);)
+2: now we can print our own logs (mLogger.xyz)
